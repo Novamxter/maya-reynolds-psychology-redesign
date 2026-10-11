@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function TherapyApproach() {
   return (
-    <section id="approach" className="bg-[#E7E0D3] text-(--text) w-full  py-12 md:py-24 overflow-x-hidden">
+    <section id="approach" className="bg-(--bg-secondary) text-(--text) w-full  py-12 md:py-24 overflow-x-hidden">
       {/* Outer Container: Right padding removed on desktop to bleed the image to the right edge */}
       <div className="w-full pl-6 pr-6 md:pr-0 md:pl-12 lg:pl-20 xl:pl-28">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 lg:gap-12 items-stretch">

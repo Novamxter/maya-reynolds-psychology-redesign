@@ -11,7 +11,7 @@ export default function HeroSection() {
           <div className="order-2 md:order-1 md:col-span-4 lg:col-span-5">
             <div className="relative w-[88%] h-80 -ml-4 md:-ml-6 md:h-135 rounded-sm overflow-hidden shadow-sm">
               <Image
-                src="/Images/peaceful-window-moment-stockcake.jpg" 
+                src="/Images/peaceful-window-moment-stockcake.jpg"
                 alt="Peaceful window moment"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -40,14 +40,15 @@ export default function HeroSection() {
 
               {/* Subtitle / Description */}
               <p className="w-[90%] md:w-full text-base sm:text-lg text-(--text-desc)  leading-relaxed max-w-xl">
-                Evidence-based, compassionate therapy for thoughtful adults navigating stress, panic, and high internal pressure.
+                Evidence-based, compassionate therapy for thoughtful adults
+                navigating stress, panic, and high internal pressure.
               </p>
 
               {/* CTA Button / Link */}
               <div className="pt-2">
                 <a
-                  href="#book"
-                  className="inline-block text-xs pt-4 sm:pt-16 sm:text-sm md:pt-0 uppercase tracking-[0.2em] text-(--text) font-semibold pb-1 border-b-2 border-gray-400 hover:border-gray-800 transition-colors"
+                  href="#contact"
+                  className="relative inline-block text-xs pt-4 sm:pt-16 sm:text-sm md:pt-0 uppercase tracking-[0.2em] text-(--text) font-semibold pb-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-px after:bg-gray-700 after:origin-left after:transition-transform after:duration-700 after:ease-in-out hover:after:scale-x-0"
                 >
                   BOOK A CONSULTATION
                 </a>
@@ -61,7 +62,7 @@ export default function HeroSection() {
       <div className="-right-8 bottom-12 h-[20%] w-20 absolute md:-right-16 md:bottom-16 md:w-30 md:block xl:w-40 md:h-[50%] opacity-90 overflow-hidden pointer-events-none">
         <div className="relative w-full h-full">
           <Image
-            src="/Images/hero-right.jpg" 
+            src="/Images/hero-right.jpg"
             alt="sunlight on curtains"
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

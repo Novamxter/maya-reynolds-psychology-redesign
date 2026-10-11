@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function ScheduleAppointmentSection() {
   return (
-    <section id="contact" className="bg-(--bg-secondary) text-(--text) py-12 md:py-24 overflow-x-hidden">
+    <section id="contact" className="bg-transparent text-(--text) py-12 md:py-24 overflow-x-hidden">
       
       {/* DESKTOP LAYOUT (>= 768px) */}
       <div className="hidden md:flex w-full items-end justify-between pl-6 lg:pl-12 pr-0">

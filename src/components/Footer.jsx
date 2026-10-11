@@ -2,12 +2,12 @@ import React from "react";
 import Logo from "./Logo";
 
 const navLinks = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Services", href: "/services" },
-  { label: "Our Office", href: "/our-office" },
-  { label: "FAQs", href: "/faqs" },
-  { label: "Contact", href: "/contact" },
+  { label: "About", href: "#about" },
+  { label: "My Office", href: "#office" },
+  { label: "Specialties", href: "#specialties" },
+  { label: "Approach", href: "#approach" },
+  { label: "Services", href: "#services" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const teamMembers = [
