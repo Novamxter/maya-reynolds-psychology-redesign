@@ -12,7 +12,7 @@ export default function ScheduleAppointmentSection() {
         <div className="w-1/6 shrink-0 -ml-16 lg:-ml-20">
           <div className="relative w-full h-95 lg:h-115 rounded-sm overflow-hidden shadow-sm">
             <Image
-              src="/images/schedule-appointment.jpg" // Replace with left beach image
+              src="/Images/schedule-appointment.jpg" // Replace with left beach image
               alt="Hands picking up seashells on sand"
               fill
               className="object-cover object-right"
@@ -57,7 +57,7 @@ export default function ScheduleAppointmentSection() {
         <div className="w-full md:w-5/12 lg:w-5/12 shrink-0 lg:-mr-25">
           <div className="relative w-full h-120 lg:h-145">
             <Image
-              src="/images/office1.jpeg" // Replace with right beach image
+              src="/Images/office1.jpeg" // Replace with right beach image
               alt="Person drawing in beach sand with child"
               fill
               priority
@@ -75,7 +75,7 @@ export default function ScheduleAppointmentSection() {
         <div className="w-[52%] pr-6 mb-18">
           <div className="relative w-full h-50 sm:h-55">
             <Image
-              src="/images/schedule-appointment.jpg"
+              src="/Images/schedule-appointment.jpg"
               alt="Hands picking up seashells on sand"
               fill
               sizes='(100vw)'
@@ -119,7 +119,7 @@ export default function ScheduleAppointmentSection() {
         <div className="w-full pl-30 pt-4">
           <div className="relative w-full h-60 sm:h-75">
             <Image
-              src="/images/office1.jpeg"
+              src="/Images/office1.jpeg"
               alt="Person drawing in beach sand with child"
               fill
               sizes='(100vw)'

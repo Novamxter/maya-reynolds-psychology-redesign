@@ -18,7 +18,7 @@ export default function HonoringSection() {
           <div className="w-full md:w-[40%] lg:w-[56%] shrink-0">
             <div className="relative w-full h-70 sm:h-80 md:h-100 lg:h-120">
               <Image
-                src="/images/misty-morning-path.jpg" // Replace with your image path
+                src="/Images/misty-morning-path.jpg" // Replace with your image path
                 alt="Family of four holding hands standing in beach water"
                 fill
                 priority

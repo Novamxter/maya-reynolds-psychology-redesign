@@ -11,7 +11,7 @@ export default function HeroSection() {
           <div className="order-2 md:order-1 md:col-span-4 lg:col-span-5">
             <div className="relative w-[88%] h-80 -ml-4 md:-ml-6 md:h-135 rounded-sm overflow-hidden shadow-sm">
               <Image
-                src="/images/peaceful-window-moment-stockcake.jpg" // Replace with your image path
+                src="/Images/peaceful-window-moment-stockcake.jpg" // Replace with your image path
                 alt="Family playing on the beach"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -61,7 +61,7 @@ export default function HeroSection() {
       <div className="-right-8 bottom-12 h-[20%] w-20 absolute md:-right-16 md:bottom-16 md:w-30 md:block xl:w-40 md:h-[50%] opacity-90 overflow-hidden pointer-events-none">
         <div className="relative w-full h-full">
           <Image
-            src="/images/hero-right.jpg" // Replace with your right-hand side preview image
+            src="/Images/hero-right.jpg" // Replace with your right-hand side preview image
             alt="Ocean landscape preview"
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

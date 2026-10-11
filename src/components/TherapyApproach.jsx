@@ -23,7 +23,7 @@ export default function TherapyApproach() {
             <div className="block md:hidden my-4">
               <div className="relative w-full overflow-hidden aspect-square shadow-sm">
                 <Image
-                  src="/images/therapy-room.webp" // Replace with your image path
+                  src="/Images/therapy-room.webp" // Replace with your image path
                   alt="Mother and child dancing on beach"
                   fill
                   className="object-cover object-center"
@@ -66,7 +66,7 @@ export default function TherapyApproach() {
           <div className="hidden md:block md:col-span-3 lg:col-span-3 relative w-full h-full min-h-65 lg:min-h-175">
             <div className="absolute inset-0 w-full h-full">
               <Image
-                src="/images/therapy-room.webp" // Replace with your image path
+                src="/Images/therapy-room.webp" // Replace with your image path
                 alt="Mother and child dancing on beach"
                 fill
                 className="object-cover object-center"

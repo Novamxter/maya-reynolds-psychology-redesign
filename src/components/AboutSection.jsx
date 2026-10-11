@@ -34,7 +34,7 @@ export default function AboutSection() {
               <div className="block md:hidden my-2">
                 <div className="relative w-full aspect-9/10 overflow-hidden shadow-sm">
                   <Image
-                    src="/images/Dr. Maya Reynolds.png"
+                    src="/Images/Dr. Maya Reynolds.png"
                     alt="Calm ocean shoreline waves"
                     fill
                     className="object-cover object-top"
@@ -57,7 +57,7 @@ export default function AboutSection() {
           <div className="hidden md:block md:col-span-5 lg:col-span-5 relative w-full h-full min-h-125 lg:min-h-150">
             <div className="absolute inset-0 w-full h-full">
               <Image
-                src="/images/Dr. Maya Reynolds.png"
+                src="/Images/Dr. Maya Reynolds.png"
                 alt="Calm ocean shoreline waves"
                 fill
                 className="object-cover object-center"

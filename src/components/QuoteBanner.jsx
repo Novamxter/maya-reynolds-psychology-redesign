@@ -8,7 +8,7 @@ export default function QuoteBanner() {
       <div className="relative w-full h-90 sm:h-102 md:h-115 lg:h-128 flex items-center justify-center">
         {/* Background Image */}
         <Image
-          src="/images/sky-with-hills-on-background.jpg" // Replace with your beach image path
+          src="/Images/sky-with-hills-on-background.jpg" // Replace with your beach image path
           alt="Children running along the beach shore"
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

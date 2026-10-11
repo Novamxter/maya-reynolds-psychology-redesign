@@ -5,7 +5,7 @@ const cardsData = [
   {
     id: "anxiety",
     title: "Anxiety & Panic",
-    image: "/images/anxiety-tea.jpg", // Replace with your image path
+    image: "/Images/anxiety-tea.jpg", // Replace with your image path
     alt: "Two adults sitting by the beach water",
     description:
       "For adults and professionals dealing with constant worry, racing thoughts, muscle tension, or trouble sleeping. Using CBT and mindfulness, we help calm your nervous system and dismantle overthinking patterns",
@@ -13,7 +13,7 @@ const cardsData = [
   {
     id: "trauma",
     title: "Trauma & EMDR",
-    image: "/images/balance-stone.jpg", // Replace with your image path
+    image: "/Images/balance-stone.jpg", // Replace with your image path
     alt: "A happy couple embracing outdoors",
     description:
       "Carefully paced support for single-incident trauma or complex, long-standing patterns from earlier life. Integrating EMDR and body-oriented tools helps you feel regulated, safe, and grounded.",
@@ -21,7 +21,7 @@ const cardsData = [
   {
     id: "burnout",
     title: "Burnout & Perfectionism",
-    image: "/images/desk.jpg", // Replace with your image path
+    image: "/Images/desk.jpg", // Replace with your image path
     alt: "Children playing at the beach",
     description:
       "Tailored for high-achieving professionals, entrepreneurs, and creatives experiencing internal exhaustion. Learn to move past relentless pressure toward sustainable ways of living.",
