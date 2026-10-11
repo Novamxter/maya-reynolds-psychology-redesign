@@ -68,7 +68,7 @@ export default function SpecialtiesSection() {
                   <div className="pt-6">
                     <a
                       href={item.href}
-                      className="inline-block text-xs uppercase tracking-[0.2em] text-(--text-heading) font-semibold pb-1 border-b border-gray-400 hover:border-gray-800 transition-colors"
+                      className="relative inline-block text-xs uppercase tracking-[0.2em] text-(--text-heading) font-semibold pb-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-px after:bg-gray-500 after:origin-left after:transition-transform after:duration-700 after:ease-in-out hover:after:scale-x-0"
                     >
                       LEARN MORE
                     </a>

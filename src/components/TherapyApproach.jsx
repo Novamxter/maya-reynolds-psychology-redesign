@@ -54,7 +54,7 @@ export default function TherapyApproach() {
             <div className="pt-2">
               <a
                 href="#book"
-                className="inline-block text-xs pt-4 sm:pt-16 sm:text-sm md:pt-0 uppercase tracking-[0.2em] text-(--text-heading) font-semibold pb-1 border-b-2 border-gray-400 hover:border-gray-800 transition-colors md:mt-20"
+                className="relative inline-block text-xs pt-4 sm:pt-16 sm:text-sm md:pt-0 uppercase tracking-[0.2em] text-(--text-heading) font-semibold pb-1 md:mt-20 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-px after:bg-gray-700 after:origin-left after:transition-transform after:duration-700 after:ease-in-out hover:after:scale-x-0"
               >
                 LEARN MORE ABOUT MY APPROACH
               </a>
