@@ -5,14 +5,14 @@ export default function HeroSection() {
   return (
     <section className="bg-transparent text-(--text) relative overflow-hidden font-sans">
       <div className="max-w-7xl mx-auto py-12 md:py-16">
-        {/* Main Grid: Stacked on Mobile (< 768px), Horizontal on Desktop (>= 768px) */}
+        {/* Main Grid: Stacked on Mobile (< 768px) */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-0 md:gap-12 items-center">
           {/* LEFT COLUMN: Main Image (Below text on mobile, Left on desktop) */}
           <div className="order-2 md:order-1 md:col-span-4 lg:col-span-5">
             <div className="relative w-[88%] h-80 -ml-4 md:-ml-6 md:h-135 rounded-sm overflow-hidden shadow-sm">
               <Image
-                src="/Images/peaceful-window-moment-stockcake.jpg" // Replace with your image path
-                alt="Family playing on the beach"
+                src="/Images/peaceful-window-moment-stockcake.jpg" 
+                alt="Peaceful window moment"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 priority
@@ -61,8 +61,8 @@ export default function HeroSection() {
       <div className="-right-8 bottom-12 h-[20%] w-20 absolute md:-right-16 md:bottom-16 md:w-30 md:block xl:w-40 md:h-[50%] opacity-90 overflow-hidden pointer-events-none">
         <div className="relative w-full h-full">
           <Image
-            src="/Images/hero-right.jpg" // Replace with your right-hand side preview image
-            alt="Ocean landscape preview"
+            src="/Images/hero-right.jpg" 
+            alt="sunlight on curtains"
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-cover object-left"

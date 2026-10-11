@@ -5,7 +5,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="bg-transparent w-full min-h-screen flex items-center justify-center py-12 xl:py-24 overflow-x-hidden">
       
-      {/* Container: Full width on right for desktop edge-bleed */}
+      {/* Container: Full width on right for desktop*/}
       <div className="w-full pl-6 pr-6 md:pr-0 md:pl-12 lg:pl-20 xl:pl-28">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-stretch">
           
@@ -35,7 +35,7 @@ export default function AboutSection() {
                 <div className="relative w-full aspect-9/10 overflow-hidden shadow-sm">
                   <Image
                     src="/Images/Dr. Maya Reynolds.png"
-                    alt="Calm ocean shoreline waves"
+                    alt="Dr. Maya Reynolds"
                     fill
                     className="object-cover object-top"
                   />
@@ -53,12 +53,12 @@ export default function AboutSection() {
 
           </div>
 
-          {/* RIGHT COLUMN: Desktop Bleed Image (Touches absolute right edge with 0 padding) */}
+          {/* RIGHT COLUMN: Desktop Bleed */}
           <div className="hidden md:block md:col-span-5 lg:col-span-5 relative w-full h-full min-h-125 lg:min-h-150">
             <div className="absolute inset-0 w-full h-full">
               <Image
                 src="/Images/Dr. Maya Reynolds.png"
-                alt="Calm ocean shoreline waves"
+                alt="Dr. Maya Reynolds"
                 fill
                 className="object-cover object-center"
               />

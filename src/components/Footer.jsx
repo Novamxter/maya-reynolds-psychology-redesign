@@ -21,6 +21,7 @@ const teamMembers = [
 export default function Footer() {
   return (
     <footer className="bg-(--bg-white) text-(--text) pt-16 md:pt-20 font-sans border-t border-gray-100">
+      <Logo className="scale-75 p-40 bg-[#f6f5f2]"/>
       {/* MAIN FOOTER CONTAINER */}
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 mb-16 md:mb-30">
         {/* DESKTOP LAYOUT (>= 768px): 4 Side-by-Side Flex Columns */}
@@ -99,7 +100,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* MOBILE LAYOUT (< 768px): Vertical Sequence Stack */}
+        {/* MOBILE LAYOUT (< 768px): */}
         <div className="flex md:hidden flex-col space-y-10">
           {/* Brand Header & Bio */}
           <div className="space-y-4">
@@ -181,7 +182,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* SAGE/TEAL BOTTOM SUB-FOOTER BAR */}
+      {/* BOTTOM SUB-FOOTER BAR */}
       <div className="bg-[#88B0A8] text-(--text-white) py-4 px-20">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between text-sm font-light tracking-wide gap-2">
           <p className="text-center sm:text-left">

@@ -5,13 +5,13 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const officeImages = [
   {
-    src: "/Images/office1.jpeg", // Replace with your hosted image 1 URL
+    src: "/Images/office1.jpeg", 
     alt: "Dr. Maya Reynolds Santa Monica office psychotherapy space with natural light and exposed brick",
     caption:
       "Loft-style consultation space featuring natural light, exposed brick, and a calm, grounded atmosphere.",
   },
   {
-    src: "/Images/office2.jpeg", // Replace with your hosted image 2 URL
+    src: "/Images/office2.jpeg", 
     alt: "Comfortable lounge seating, bookshelf, and olive tree in Santa Monica therapy room",
     caption:
       "Private lounge seating, calming greenery, and a quiet sanctuary away from the fast-paced city.",

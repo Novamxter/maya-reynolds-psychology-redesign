@@ -36,7 +36,7 @@ export default function SpecialtiesSection() {
     <section id="specialties" className="bg-(--bg-white) text-(--text) py-16 md:py-24 px-6 sm:px-10 lg:px-24 font-sans">
       <div className="max-w-7xl mx-auto">
         
-        {/* Outer Flex Container: Stacked on Mobile, Row on Desktop */}
+        {/* Outer Flex Container: */}
         <div className="flex flex-col md:flex-row gap-12 lg:gap-16 items-start">
           
           {/* LEFT SIDE: Heading (Fixed Width on Desktop) */}

@@ -4,12 +4,12 @@ import Image from "next/image";
 export default function QuoteBanner() {
   return (
     <section className="relative w-full bg-(--bg-white) overflow-hidden py-8 md:py-16">
-      {/* Banner Container: Height adjusts responsively */}
+      {/* Banner Container: */}
       <div className="relative w-full h-90 sm:h-102 md:h-115 lg:h-128 flex items-center justify-center">
         {/* Background Image */}
         <Image
-          src="/Images/sky-with-hills-on-background.jpg" // Replace with your beach image path
-          alt="Children running along the beach shore"
+          src="/Images/sky-with-hills-on-background.jpg" 
+          alt="Sky with hills on background"
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           priority

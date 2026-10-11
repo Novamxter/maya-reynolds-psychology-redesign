@@ -5,10 +5,6 @@ export default function HonoringSection() {
   return (
     <section className="bg-(--bg-white) text-(--text) py-12 md:py-24 overflow-x-hidden">
       
-      {/* Outer Flex Container:
-          - Mobile: Left pad only (pl-6 pr-0), so image touches RIGHT screen edge
-          - Desktop: Right pad only (md:pl-0 md:pr-12 lg:pr-20 xl:pr-28), so image touches LEFT screen edge
-      */}
       <div className="w-full pl-6 md:pl-0 pr-0 md:pr-12 lg:pr-20 xl:pr-28">
         
         {/* Flex Layout: Stacked vertically on Mobile, Horizontal on Desktop */}
@@ -18,8 +14,8 @@ export default function HonoringSection() {
           <div className="w-full md:w-[40%] lg:w-[56%] shrink-0">
             <div className="relative w-full h-70 sm:h-80 md:h-100 lg:h-120">
               <Image
-                src="/Images/misty-morning-path.jpg" // Replace with your image path
-                alt="Family of four holding hands standing in beach water"
+                src="/Images/misty-morning-path.jpg" 
+                alt="Misty morning path"
                 fill
                 priority
                 className="object-cover object-center"

@@ -15,11 +15,6 @@
 
   --bg-secondary: #f6f5f2;
   --bg-white: #ffffff;
-  --heading: #263b35;
-
-  --accent: #c98f72;
-  --muted: #666666;
-  --white: #ffffff;
 }
 
 @theme inline {

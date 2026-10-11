@@ -5,15 +5,15 @@ export default function ScheduleAppointmentSection() {
   return (
     <section id="contact" className="bg-(--bg-secondary) text-(--text) py-12 md:py-24 overflow-x-hidden">
       
-      {/* DESKTOP LAYOUT (>= 768px): 3-column flex with full bleed image on right */}
+      {/* DESKTOP LAYOUT (>= 768px) */}
       <div className="hidden md:flex w-full items-end justify-between pl-6 lg:pl-12 pr-0">
         
         {/* Left Side Peek Image */}
         <div className="w-1/6 shrink-0 -ml-16 lg:-ml-20">
           <div className="relative w-full h-95 lg:h-115 rounded-sm overflow-hidden shadow-sm">
             <Image
-              src="/Images/schedule-appointment.jpg" // Replace with left beach image
-              alt="Hands picking up seashells on sand"
+              src="/Images/schedule-appointment.jpg" 
+              alt="Aesthatic shelf"
               fill
               className="object-cover object-right"
             />
@@ -53,12 +53,12 @@ export default function ScheduleAppointmentSection() {
           </div>
         </div>
 
-        {/* Right Side Full-Bleed Image (Touches Right Edge) */}
+        {/* Right Side Full-Bleed Image*/}
         <div className="w-full md:w-5/12 lg:w-5/12 shrink-0 lg:-mr-25">
           <div className="relative w-full h-120 lg:h-145">
             <Image
-              src="/Images/office1.jpeg" // Replace with right beach image
-              alt="Person drawing in beach sand with child"
+              src="/Images/office1.jpeg" 
+              alt="Welcome to office"
               fill
               priority
               className="object-cover object-center"
@@ -68,7 +68,7 @@ export default function ScheduleAppointmentSection() {
 
       </div>
 
-      {/* MOBILE LAYOUT (< 768px): Sequential Stack */}
+      {/* MOBILE LAYOUT (< 768px): */}
       <div className="flex md:hidden flex-col space-y-8">
         
         {/* Top Mobile Image: Touches Left Edge */}
@@ -76,7 +76,7 @@ export default function ScheduleAppointmentSection() {
           <div className="relative w-full h-50 sm:h-55">
             <Image
               src="/Images/schedule-appointment.jpg"
-              alt="Hands picking up seashells on sand"
+              alt="Aesthatic shelf"
               fill
               sizes='(100vw)'
               className="object-cover object-right"
@@ -120,7 +120,7 @@ export default function ScheduleAppointmentSection() {
           <div className="relative w-full h-60 sm:h-75">
             <Image
               src="/Images/office1.jpeg"
-              alt="Person drawing in beach sand with child"
+              alt="Welcome to office"
               fill
               sizes='(100vw)'
               className="object-cover object-center"
