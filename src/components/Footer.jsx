@@ -21,7 +21,6 @@ const teamMembers = [
 export default function Footer() {
   return (
     <footer className="bg-(--bg-white) text-(--text) pt-16 md:pt-20 font-sans border-t border-gray-100">
-      <Logo className="scale-75 p-40 bg-[#f6f5f2]"/>
       {/* MAIN FOOTER CONTAINER */}
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 mb-16 md:mb-30">
         {/* DESKTOP LAYOUT (>= 768px): 4 Side-by-Side Flex Columns */}
