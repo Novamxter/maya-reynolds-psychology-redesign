@@ -57,7 +57,7 @@ export default function Navbar() {
 
       {/* Slide-Down Mobile Menu */}
       <div
-        className={`lg:hidden fixed inset-x-0 top-24 bg-[#F4F0EA]/95 backdrop-blur-md shadow-xl border-b border-gray-200/50 transition-all duration-500 ease-in-out z-40 overflow-hidden ${
+        className={`lg:hidden fixed inset-x-0 top-24 bg-(--background)/95 backdrop-blur-md shadow-xl border-b border-gray-200/50 transition-all duration-500 ease-in-out z-40 overflow-hidden ${
           menuOpen ? "max-h-125 opacity-100 py-6" : "max-h-0 opacity-0 py-0"
         }`}
       >
